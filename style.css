@@ -3,9 +3,6 @@
     margin: 0;
     font-family:poppins ;
 }
-body{
-    background-color: ;
-}
 .headerContainer{
     display: flex;
     justify-content: space-around;
@@ -20,7 +17,7 @@ body{
   -webkit-text-fill-color: transparent;
 }
 .navContainer {
-    padding-top: 20px;
+    padding-top: 40px;
 }
 #navlink{
     text-decoration: none;
@@ -29,7 +26,7 @@ body{
     margin: 15px;
 }
 .iconContainer {
-    padding-top: 20px;
+    padding-top: 40px;
 }
 #myLinks{
     margin: 10px;
@@ -115,9 +112,9 @@ body{
     padding: 20px;
 }
 .footerText{
-    font-size: 1rem;
+    font-size: 1.5rem;
     text-transform: capitalize;
-    font-size: 72px;
+    padding: 20px;
     background: linear-gradient(90deg, #FC466B 0%, #3F5EFB 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
