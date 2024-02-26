@@ -103,12 +103,13 @@ body{
     margin-top: 30px;
     display: flex;
     justify-content: space-evenly;
+    border-bottom: 2px solid black;
+    margin: 70px;
 }
 .innerExtra{
      display: flex;
      justify-content: space-around;
-     margin-top: 40px;
-   
+     margin-top: 20px;
 }
 .hone{
     padding: 20px;
