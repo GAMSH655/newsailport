@@ -6,6 +6,7 @@
 .headerContainer{
     display: flex;
     justify-content: space-around;
+    align-items: center;
     padding: 40px;
 }
 .logoText{
@@ -19,11 +20,17 @@
 .navContainer {
     padding-top: 40px;
 }
+.MobileContainer{
+     display: none;
+}
 #navlink{
     text-decoration: none;
     text-transform: capitalize;
     font-size: medium;
     margin: 15px;
+}
+#last{
+    border-bottom: none;
 }
 .iconContainer {
     padding-top: 40px;

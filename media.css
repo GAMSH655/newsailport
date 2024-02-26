@@ -1,0 +1,80 @@
+@media only screen and (max-width:768px) {
+    .navContainer{
+        display: none;
+    }
+    .iconContainer{
+        display: none;
+    }
+    .headerContainer{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 40px;
+    }
+    .MobileContainer{
+         display: block;
+    }
+    .MobileContainer{
+     position: absolute;
+     left: 50px;
+     width: 300px;
+     transition: .5s all ease-out;
+     background-color:black;
+     backdrop-filter: blur(50px);
+     
+
+     animation-name: slideTop;
+     animation-duration: 5s;
+    animation-timing-function: cubic-bezier(0.23, 1, 0.320, 1);
+    }
+    @keyframes slideTop {
+         0%{transform: translateY(-150px);}
+    }
+    #mobilelink{
+         display: block;
+         padding:35px;
+         text-align: center;
+         text-decoration: none;
+         color: white;
+         text-transform: capitalize;
+         font-size: 1.5rem;
+         margin-top: 0;
+         border-bottom: 1.5px solid black;
+    }
+    .last{
+        border-bottom: none;
+    }
+    .section{
+        display: flex;
+        flex-wrap: wrap;
+        
+    }
+    .p1{
+        font-size: 1.5rem;
+        text-align: center;
+    }
+    .techStackContainer{
+         display: grid;
+         grid-template-columns: repeat(2,1fr);
+         justify-content: center;
+         place-items: center;
+    }
+    .projectContainer{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .projectbox{
+        margin: 10px;
+    }
+    .extraContainer{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .innerExtra{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .techbox1{
+         margin:20px;
+    }
+    }
