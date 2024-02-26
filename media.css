@@ -21,7 +21,7 @@
      transition: .5s all ease-out;
      background-color:black;
      backdrop-filter: blur(50px);
-     
+
 
      animation-name: slideTop;
      animation-duration: 5s;
@@ -69,12 +69,23 @@
     .extraContainer{
         display: flex;
         flex-wrap: wrap;
+        padding: 30px;
     }
     .innerExtra{
         display: flex;
         flex-wrap: wrap;
     }
+    button{
+        width: 150px;
+        border: none;
+        padding: 10px;
+        border-radius: 15px;
+        background-color: transparent;
+        display: block;
+    }
     .techbox1{
          margin:20px;
     }
-    }
+
+}
+    

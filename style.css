@@ -9,6 +9,15 @@
     align-items: center;
     padding: 40px;
 }
+  
+button{
+    width: 150px;
+    border: none;
+    padding: 10px;
+    border-radius: 15px;
+    background-color: transparent;
+    display: none;
+}
 .logoText{
     font-size: 2rem;
     text-transform: capitalize;
