@@ -1,0 +1,101 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family:poppins ;
+}
+body{
+    background-color: ;
+}
+.headerContainer{
+    display: flex;
+    justify-content: space-around;
+    padding: 40px;
+}
+.logoText{
+    font-size: 2rem;
+    text-transform: capitalize;
+    font-size: 72px;
+    background: linear-gradient(90deg, #FC466B 0%, #3F5EFB 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.navContainer {
+    padding-top: 20px;
+}
+#navlink{
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: medium;
+    margin: 15px;
+}
+.iconContainer {
+    padding-top: 20px;
+}
+#myLinks{
+    margin: 10px;
+}
+.section {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 70px;
+}
+.p1 {
+    font-weight: bolder;
+    font-size: 4rem;
+    text-transform: capitalize;
+    line-height: 80px;
+}
+#porfolioImg{
+     height: 200px;
+     width: 200px; 
+     border-style: solid;
+    border-width: 9px;
+    border-image: linear-gradient(90deg, #FC466B 0%, #3F5EFB 100%) 30; 
+}
+.introStack{
+    font-weight: 400 ;
+    text-align: center;
+    padding-top: 90px;
+    font-size: 3rem;
+    text-transform: capitalize;
+}
+.techStackContainer{
+    display: flex;
+    justify-content: space-around;
+   align-items: center; 
+   margin-top: 80px;
+}
+#techtext{
+     text-align: center;
+     font-size: 2rem;
+     text-transform: capitalize;
+     font-size: sofia;
+}
+.projectsUpperText{
+    text-align: center;
+    font-weight: 400 ;
+    text-align: center;
+    padding-top: 90px;
+    font-size: 3rem;
+    text-transform: capitalize;
+}
+#projectimg{
+    height: 225px;
+    width: 225px;
+}
+.projectContainer{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 50px;
+}
+.projectbox{
+    text-align: center;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow:5px -2px 5px 5px rgba(0, 0, 0, 0.144);
+}
+.txt{
+     padding-top: 10px;
+}
