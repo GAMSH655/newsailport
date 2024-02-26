@@ -10,7 +10,7 @@
     padding: 40px;
 }
   
-button{
+.menuBTn{
     width: 150px;
     border: none;
     padding: 10px;
@@ -19,9 +19,8 @@ button{
     display: none;
 }
 .logoText{
-    font-size: 2rem;
+    font-size: 5rem;
     text-transform: capitalize;
-    font-size: 72px;
     background: linear-gradient(90deg, #FC466B 0%, #3F5EFB 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
